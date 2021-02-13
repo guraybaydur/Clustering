@@ -198,7 +198,7 @@ if __name__ == '__main__':
     for i, cluster in enumerate(clusters[0]["clusters"]):
         c = [int(x) for x in list(cluster)]
         clusters_to_be_saved[i] = c
-    with open("clusters.json", "w") as f:
+    with open("clusters.json", "w+") as f:
         json.dump(clusters_to_be_saved, f)
     # n_faces = 0
     # for c in clusters:
