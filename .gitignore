@@ -1,3 +1,8 @@
 *.jpg
 approximate_nn_clustering.egg-info
 *.pyc
+venv/
+.DS_Store
+data/clusters.json
+.idea/
+.gitignore
